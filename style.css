@@ -1,0 +1,88 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+
+.card {
+    width: 240px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.card-content {
+    padding: 15px;
+}
+
+
+.card-title {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+
+.card-property {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+
+.card-actions {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+
+.btn {
+    padding: 5px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid;
+}
+
+
+.edit-btn {
+    background-color: #ffffff;
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.delete-btn {
+    background-color: #ffffff;
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+
+.edit-btn:hover {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.delete-btn:hover {
+    background-color: #dc3545;
+    color: #ffffff;
+}
